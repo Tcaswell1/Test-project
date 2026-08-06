@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="side-tabs" aria-label="Page tabs">
+      <a class="tab active" href="index.html" aria-current="page">
+        <img
+          src="https://the50unitedstates.com/images/flowers/US-MN.jpg"
+          alt="Minnesota state flower"
+          class="tab-image"
+        />
+        Home
+      </a>
+      <a class="tab" href="history.html">
+        <img
+          src="https://the50unitedstates.com/images/flowers/US-MN.jpg"
+          alt="Minnesota state flower"
+          class="tab-image"
+        />
+        History
+      </a>
+    </nav>
+
+    <main class="hero" role="main" aria-labelledby="title">
+      <p class="eyebrow">How I learned to code.</p>
+      <h1 id="title">My first project.</h1>
+      <p class="details">
+        A short note about starting to learn web development and plans to
+        explore backend and databases.
+      </p>
+
+      <p>
+        When I started I did not know anything about coding. I was a complete
+        beginner and had no idea where to start. I decided to take an online
+        course that taught me the basics of HTML and CSS. The course was very
+        helpful and provided me with a solid foundation in web development. I am
+        not done yet, but I am excited to continue learning and improving my
+        skills.
+      </p>
+
+      <p>
+        I want to learn the backend of coding and explore server-side
+        programming and databases to build full-stack applications. I'm
+        committed to practicing and building projects to grow as a developer.
+      </p>
+
+      <a class="cta" href="history.html">Read about International Falls</a>
+    </main>
+  </body>
+</html>
